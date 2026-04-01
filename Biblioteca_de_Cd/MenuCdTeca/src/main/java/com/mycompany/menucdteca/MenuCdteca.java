@@ -17,7 +17,7 @@ public class MenuCdteca {
     
     
     public MenuCdteca() {
-    VendaCD vcd = new VendaCD();
+    this.vcd = new VendaCD();
     this.cdteca = new Cdteca();
     this.opçao = -1;
     this.conversor = new ConversorNumeros();
